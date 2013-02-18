@@ -1,0 +1,7 @@
+Skin Title: Dank Drank Drunk
+Author: Scottevil
+Version: 1.0
+Date: 10.26.2011
+Description:
+
+Made to match Mango lite windows theme

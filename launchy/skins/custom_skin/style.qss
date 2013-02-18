@@ -1,0 +1,65 @@
+QLineEdit#input {
+	font:  10pt "Arial";
+	border-width: 0px;
+	background-color: rgba(0,0,0,0%);
+	border-style: solid;
+	color: white;
+}
+QLineEdit#output {
+	font:  12pt "Arial";
+	border-width: 0px;
+	background-color: rgba(0,0,0,0%);
+	border-style: solid;
+	color: lightGrey;
+	text-align: left;
+}
+
+QListWidget#alternatives {
+	font:  10 pt "Arial";
+	background-color: rgba(0,0,0,50%);
+	alternate-background-color: rgba(0,0,0,50%); 	
+	color: #FFFFFF;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #000000;
+}
+
+
+QScrollBar#altScroll:vertical {
+	image: url(skins/Dank/scroller-back.png); 
+	width: 7px; 
+	margin: 11px 0px 11px 0px; 
+}
+ 
+
+QScrollBar#altScroll::handle:vertical {
+	background: #000000;
+}
+
+
+QScrollBar#altScroll::sub-line:vertical {
+	width: 11px;
+	height: 11px;
+	subcontrol-position: top;
+	subcontrol-origin: margin; 
+	image: url(skins/Dank/scrollUp.png); 	
+}
+
+
+QScrollBar#altScroll::add-page:vertical {
+	background: url(skins/Dank/scrollBack.png);
+}
+
+
+QScrollBar#altScroll::sub-page:vertical {
+	background: url(skins/Dank/scrollBack.png); 	
+}
+
+
+QScrollBar#altScroll::add-line:vertical { 
+	width: 11px;
+	height: 11px; 
+	subcontrol-position: bottom;
+	subcontrol-origin: margin;        
+	image: url(skins/Dank/scrollDown.png);
+}
